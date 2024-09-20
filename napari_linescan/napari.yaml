@@ -1,0 +1,9 @@
+name: napari-linescan
+contributions:
+  commands:
+    - id: napari-linescan.make_linescan_widget
+      title: line profile
+      python_name: napari_linescan.widgets:PlotWidget
+  widgets:
+  - command: napari-linescan.make_linescan_widget
+    display_name: linescan tool
